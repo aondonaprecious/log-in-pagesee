@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+
+    <script>
+      tailwind.config = {
+        theme: {
+          screens: {
+            xs: "400px",
+            sm: "640px",
+            md: "768px",
+            lg: "1024px",
+            xl: "1280px",
+            "2xl": "1536px",
+          },
+        },
+      };
+    </script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@200..700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <style>
+        *{
+            font-family: "Oswald", sans-serif;
+
+        }
+    </style>
+  </head>
+  <body>
+    <!-- header starts-->
+    <header class="flex justify-between px-3 bg-gray-400 h-[70px] items-center text-white font-medium">
+      <div class="text-lg font-bold">
+        <span class="text-red-700">PRECY </span>APP
+      </div>
+      <ul class="menu flex justify-end items-center gap-4">
+        <li>Home</li>
+        <li>About</li>
+        <li>Services</li>
+        <li>Contacts</li>
+      </ul>
+    </header>
+    <!--header ends-->
+
+    <!-- new div-->
+
+    <div
+      class="contain flex w-[90%] md:w-[80%] mx-auto justify-between items-center flex-col md:flex-row my-[100px] gap-[50px]"
+    >
+      <div class="container_body  flex flex-col gap-[23px]  w-[80%] md:w-[60%]">
+        <h2 class="text-3xl font-bold">its Heading</h2>
+        <p>
+          Lorem ipsum dolor, sit amet consectetur adipisicing elit. Eos,
+          adipisci quas. Aliquam optio necessitatibus unde odio inventore dicta
+          cumque natus accusantium? Distinctio sunt cum animi esse nihil quasi
+          odit magnam perspiciatis suscipit dolore ea rem consequuntur sapiente
+          reiciendis soluta facere similique explicabo beatae, quidem
+          reprehenderit. Lorem ipsum dolor, sit amet consectetur adipisicing
+          elit.
+        </p>
+      </div>
+      <img
+        src="images/precious pix.png"
+        alt=""
+        class="rounded-md w-[30%] h-[20%] flex-left" />
+    </div>
+
+
+    <div class="cards flex flex-wrap w-[90%] md:w-[80%] mx-auto gap-[30px] justify-center">
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]  p-4 w-[300px]">
+            <img class="h-[30] w-[20] rounded-md" src="images/pteshy .jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center"> Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img  class="rounded-md"src="images/precious pix.png" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img class="rounded-md" src="images/PRERCY.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img class="rounded-md" src="images/percy.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px] ">
+            <img class="rounded-md" src="images/PRERCY.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img class="rounded-md" src="images/PRERCY.jpg" alt="">
+             <h4 class="text-2xl font-bold flex flex-col items-center"> Cards Headings</h4>
+             <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+            </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img class="rounded-md" src="images/PRERCY.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center class="text-center"">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px]">
+            <img src="images/PRERCY.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+        <div class=" rounded-md cards_body shadow-lg md:w-[30%] w-[300px] p-4 w-[300px]">
+            <img class="rounded-md" src="images/PRERCY.jpg" alt="">
+            <h4 class="text-2xl font-bold flex flex-col items-center">Cards Headings</h4>
+            <p class="text-center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Deserunt, fugiat.</p>
+        </div>
+    </div>
+
+
+    <footer class="text-center my-[50px] text-xl">
+        <i class="fa-brands fa-facebook"></i>
+        <i class="fa-brands fa-instagram"></i>
+        <i class="fa-brands fa-twitter"></i>
+        <i class="fa-brands fa-whatsapp"></i>
+        <p class="text-sm font-semibold"> @All Rights Reserved</p>
+    </footer>
+  </body>
+</html>
